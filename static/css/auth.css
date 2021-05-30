@@ -1,0 +1,42 @@
+body {
+  background: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.auth-form {
+  max-width: 50%;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.label {
+  max-width: 50%;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+  background: #fff;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .auth-form {
+        max-width: 100%;
+    }
+
+    .label {
+        max-width: 100%;
+    }
+  }

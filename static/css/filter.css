@@ -1,0 +1,43 @@
+.filter-list {
+    display: none;
+    position: absolute;
+    right: 380px;
+    list-style-type: none;
+    padding-left: 0px;
+    background: white;
+    border: solid #A5A5A5 1px;
+    box-shadow: 0 0 5px;
+}
+
+.filter-el {
+    display: block;
+    float: left;
+    margin: 4px;
+}
+
+.filter-icon {
+    position: relative;
+    right: 380px;
+    height: 30px;
+    width: 55px;
+    top: 4px;
+}
+
+.close-filter-icon {
+    height: 11px;
+    width: 10px;
+    margin-right: 4px
+}
+
+.close-filter-menu {
+    float: right;
+}
+
+.notif-search-by-name {
+    font-size: 9px;
+    margin-bottom: 0px;
+}
+
+.input-search-by-name {
+    margin-top: 0px;
+}
